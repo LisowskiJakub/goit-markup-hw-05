@@ -407,8 +407,8 @@ body {
     border: 1px solid var(--borderGrey);
     border-radius: 4px;
     fill: var(--borderGrey);
-    transition: border 1500ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 1500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 500ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 

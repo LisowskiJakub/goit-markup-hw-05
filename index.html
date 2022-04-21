@@ -48,7 +48,7 @@
     <section class="hero">
       <div class="hero-container">
         <h1 class="hero-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button" class="order-button">Zamów usługę</button>
+        <button type="button" class="order-button" data-modal-open>Zamów usługę</button>
       </div>
     </section>
     <section class="lorem section">
@@ -321,6 +321,20 @@
       </div>
     </div>
   </footer>
+
+  <!-------Modal window-------->
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-btn-close" data-modal-close>
+        <svg class="close-btn" width="11" height="11">
+          <use href="./images/sprite.svg#icon-x"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
